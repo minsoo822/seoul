@@ -1,35 +1,35 @@
 <!doctype html>
 <html lang="ko">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bootstrap demo</title>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-		<style type="text/css">
-			@font-face {
-			    font-family: 'MICEGothic Bold';
-			    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
-			    font-weight: 700;
-			    font-style: normal;
-			}
-			
-			#navbarType {
-				padding:  20px 400px 20px 400px;
-				background-color: #EDE5FF;
-			}
-			
-			#navbarFont {
-				font-family: 'MICEGothic Bold';
-			}
-			
-			table, th, td {
-				border: 1px solid black;
-				border-collapse: collapse;
-			}
-		</style>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<style type="text/css">
+		@font-face {
+		    font-family: 'MICEGothic Bold';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+		    font-weight: 700;
+		    font-style: normal;
+		}
+		
+		#navbarType {
+			padding:  20px 400px 20px 400px;
+			background-color: #EDE5FF;
+		}
+		
+		#navbarFont {
+			font-family: 'MICEGothic Bold';
+		}
+		
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
 	
-	<body>
+<body>
 	<form action="">
 	<div id="navbarFont">
 	<div>
@@ -48,35 +48,124 @@
 	</nav>
 	</div>
 	<div style="padding: 20px 400px 20px 400px; margin-top: 20px; text-align: center;">
-		<ul class="row nav justify-content-center">
-			<li class="col nav-item">
-				<a class="nav-link active" aria-current="page" href="#">프로필 투어</a>
-			</li>
-			<li class="col nav-item">
-				<a class="nav-link active" aria-current="page" href="#">오디션 공고</a>
-			</li>
-			<li class="col nav-item">
-				<a class="nav-link active" aria-current="page" href="#">배우 프로필</a>
-			</li>
-			<li class="col nav-item">
-				<a class="nav-link active" aria-current="page" href="#">커뮤니티</a>
-			</li>
-			<li class="col nav-item">
-				<a class="nav-link active" aria-current="page" href="#">자료실</a>
-			</li>
-			<li class="col nav-item">
-				<a class="nav-link active" aria-current="page" href="#">회원관리</a>
-			</li>
-		</ul>
+	<ul class="row nav justify-content-center nav-pills">
+	  <li class="col nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">프로필 투어</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">Action</a></li>
+	      <li><a class="dropdown-item" href="#">Another action</a></li>
+	      <li><a class="dropdown-item" href="#">Something else here</a></li>
+	      <li><hr class="dropdown-divider"></li>
+	      <li><a class="dropdown-item" href="#">Separated link</a></li>
+	    </ul>
+	  </li>
+	  <li class="col nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">오디션 공고</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">Action</a></li>
+	      <li><a class="dropdown-item" href="#">Another action</a></li>
+	      <li><a class="dropdown-item" href="#">Something else here</a></li>
+	      <li><hr class="dropdown-divider"></li>
+	      <li><a class="dropdown-item" href="#">Separated link</a></li>
+	    </ul>
+	  </li>
+	  <li class="col nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">배우프로필</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">Action</a></li>
+	      <li><a class="dropdown-item" href="#">Another action</a></li>
+	      <li><a class="dropdown-item" href="#">Something else here</a></li>
+	      <li><hr class="dropdown-divider"></li>
+	      <li><a class="dropdown-item" href="#">Separated link</a></li>
+	    </ul>
+	  </li>
+	  <li class="col nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">커뮤니티</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">Action</a></li>
+	      <li><a class="dropdown-item" href="#">Another action</a></li>
+	      <li><a class="dropdown-item" href="#">Something else here</a></li>
+	      <li><hr class="dropdown-divider"></li>
+	      <li><a class="dropdown-item" href="#">Separated link</a></li>
+	    </ul>
+	  </li>
+	   <li class="col nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">자료실</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">Action</a></li>
+	      <li><a class="dropdown-item" href="#">Another action</a></li>
+	      <li><a class="dropdown-item" href="#">Something else here</a></li>
+	      <li><hr class="dropdown-divider"></li>
+	      <li><a class="dropdown-item" href="#">Separated link</a></li>
+	    </ul>
+	  </li>
+	   <li class="col nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">회원관리</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">코드관리</a></li>
+	      <li><a class="dropdown-item" href="#">코드그룹관리</a></li>
+	      <li><hr class="dropdown-divider"></li>
+	    </ul>
+	  </li>
+	</ul>
 	</div>
 	<div style="margin: 50px 0px 50px 100px;">
 		<h3>회원관리</h3>
+	</div>
+	<div style="margin: 0px 300px 10px 100px;">
+		<table class="table table-borderless">
+			<tr>
+				<th width="80px">가입시기</th>
+				<td>
+					<input type="date"> ~ 
+					<input type="date">
+					<button type="button" class="btn btn-outline-primary btn-sm">오늘</button>
+					<button type="button" class="btn btn-outline-primary btn-sm">3일</button>
+					<button type="button" class="btn btn-outline-primary btn-sm">7일</button>
+					<button type="button" class="btn btn-outline-primary btn-sm">1개월</button>
+					<button type="button" class="btn btn-outline-primary btn-sm">3개월</button>
+					<button type="button" class="btn btn-outline-primary btn-sm">전체</button>
+				</td>
+			</tr>
+			<tr>
+				<th rowspan="2">회원정보</th>
+			    <td>
+					<input type="text" placeholder="회원번호" style="width: 80px;"> 
+					<input type="text" placeholder="이름"  style="width: 80px;"> 
+					<input type="text" placeholder="나이"  style="width: 80px;"> 
+					<input type="text" placeholder="아이디"  style="width: 80px;"> 
+					<input type="text" placeholder="회원등급"  style="width: 80px;"> 
+					<input type="text" placeholder="전화번호"  style="width: 80px;"> 
+				</td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>
+					<b> 성별</b>
+					<select>
+						<option>선택</option>
+						<option>남자</option>
+						<option>여자</option>
+					</select> 
+					<b> 소속사</b>
+					<select>
+						<option>선택</option>
+						<option>N</option>
+						<option>Y</option>
+					</select> 
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+						<button type="button" class="btn btn-outline-primary btn-lg">검색</button>
+						<input class="btn  btn-outline-primary" type="reset" value="Reset">
+					</div>
+				</td>
+			</tr>
+		</table>
 	</div>
 	<div class="container-fluid">
 		<table class="table table-striped table-hover" style="text-align: center;">
 			<tr>
 				<th width="30px"><input type="checkbox"> 선택</th>
-				<th width="30px">번호</th>
+				<th width="40px">회원번호</th>
 				<th width="40px">이름</th>
 				<th width="40px">성별</th>
 				<th width="40px">나이</th>
@@ -88,11 +177,31 @@
 				<th width="40px">아이디</th>
 				<th width="180px">주소</th>
 				<th width="80px">전화번호</th>
+				<th width="30px">소속사</th>
 				<th width="70px">가입시기</th>	
 				<th width="40px">회원등급</th>	
 			</tr>
 			<tr>
 				<td><input type="checkbox"></td>
+				<td>1</td>
+				<td>김민수</td>
+				<td>남자</td>
+				<td>31</td>
+				<td>92. 06. 22</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -124,43 +233,11 @@
 				<td></td>
 				<td></td>
 				<td></td>
-			</tr>
-			<tr>
-				<td><input type="checkbox"></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td><input type="checkbox"></td>
 				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td><input type="checkbox"></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -192,22 +269,6 @@
 				<td></td>
 				<td></td>
 				<td></td>
-			</tr>
-			<tr>
-				<td><input type="checkbox"></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -226,6 +287,25 @@
 				<td></td>
 				<td></td>
 				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><input type="checkbox"></td>
@@ -243,9 +323,29 @@
 				<td></td>
 				<td></td>
 				<td></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><input type="checkbox"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -263,15 +363,40 @@
 			</tr>
 		</table>
 	</div>
-	<div>
-		페이지 버튼 넣기
-	</div>
-	
-	
-	
+		<div>
+			<nav aria-label="Page navigation example">
+				<ul class="pagination  justify-content-center">
+					<li class="page-item">
+						<a class="page-link" href="#" aria-label="Previous">
+						<span aria-hidden="true">&laquo;</span>
+					</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div>
+			<div style="padding: 0px 12px 0px 12px;">
+				<div class="d-grid gap-2 d-md-block" style="float: left;">
+					<button class="btn btn-danger" type="button"><i class="fa-solid fa-minus"></i></button>
+					<button class="btn btn-danger" type="button"><i class="fa-solid fa-trash-can"></i></button>
+				</div>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+					<button class="btn btn-success me-md-2" type="button"><i class="fa-solid fa-file-excel"></i></button>
+					<button class="btn btn-primary" type="button"><i class="fa-solid fa-plus"></i></button>
+				</div>
+			</div>
+		</div>
 	</div>
 	</form>
-	 	
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/2b8f3e92c4.js" crossorigin="anonymous"></script>
 	</body>
 </html>
