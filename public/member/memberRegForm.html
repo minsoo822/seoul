@@ -129,7 +129,10 @@
 			</div>
 			<h5 style="margin: 50px 300px 30px 0px;">기본정보</h5>
 			<div class="row pdBt">
-				<div class="col-2 pt-5" style="border: 1px black solid;">사진</div>
+				<div class="col-2 pt-5 border">
+					<b>증명사진</b>
+					<input class="form-control" type="file">
+				</div>
 				<div class="col">
 					<div class="row">
 						<div class="col-2 pt-2">성명</div>
@@ -169,7 +172,11 @@
 					</div>
 				</div>
 			</div>
-			<h5  style="margin: 50px 300px 30px 0px;">학력 사항</h5>
+			<h5  style="margin: 50px 300px 0px 0px;">학력 사항</h5>
+			<div class="gap-1 d-flex justify-content-end" style="margin-bottom: 5px;">
+				<button class="btn btn-danger"><i class="fa-solid fa-minus"></i></button>
+				<button class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+			</div>
 			<div class="row" style="text-align: center;">
 				<div class="col-4">기간</div>
 				<div class="col">출신학교</div>
@@ -197,7 +204,11 @@
 				<div class="col-1 gx-0"><input class="form-control" type="text"></div>
 				<div class="col-1 gx-0"><input class="form-control" type="text"></div>
 			</div>
-			<h5  style="margin: 50px 300px 30px 0px;">교육 연수</h5>
+			<h5  style="margin: 50px 300px 0px 0px;">교육 연수</h5>
+			<div class="gap-1 d-flex justify-content-end">
+				<button class="btn btn-danger"><i class="fa-solid fa-minus"></i></button>
+				<button class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+			</div>
 			<div class="row" style="text-align: center;">
 				<div class="col-4">연수기간</div>
 				<div class="col">연수기관</div>
@@ -211,7 +222,11 @@
 				<div class="col gx-0"><input class="form-control" type="text"></div>
 				<div class="col gx-0"><input class="form-control" type="text"></div>
 			</div>
-			<h5  style="margin: 50px 300px 30px 0px;">자격 사항</h5>
+			<h5  style="margin: 50px 300px 0px 0px;">자격 사항</h5>
+			<div class="justify-content-end d-flex gap-1">
+				<button class="btn btn-danger"><i class="fa-solid fa-minus"></i></button>
+				<button class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+			</div>
 			<div class="row" style="text-align: center;">
 				<div class="col-4">취득일</div>
 				<div class="col">종류 및 등급</div>
@@ -227,7 +242,11 @@
 				<div class="col gx-0"><input class="form-control" type="text"></div>
 				<div class="col gx-0"><input class="form-control" type="text"></div>
 			</div>
-			<h5  style="margin: 50px 300px 30px 0px;">경력 사항</h5>
+			<h5  style="margin: 50px 300px 0px 0px;">경력 사항</h5>
+			<div class="justify-content-end d-flex gap-1">
+				<button class="btn btn-danger"><i class="fa-solid fa-minus"></i></button>
+				<button class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+			</div>
 			<div class="row" style="text-align: center;">
 				<div class="col-4">활동기간</div>
 				<div class="col">기 관</div>
@@ -243,16 +262,28 @@
 				<div class="col gx-0"><input class="form-control" type="text"></div>
 				<div class="col gx-0"><input class="form-control" type="text"></div>
 			</div>
-			<div class="row m-5">
+			<div class="row m-5" style="float: left;">
 				<div class="col">
-					<button type="button" class="btn btn-danger">취소</button>
+					<button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
 				</div>
-				<div class="col offset">
-					<button type="button" class="btn btn-primary">완료</button>
+			</div>
+			<div class="row m-5" style="float: right;">
+				<div class="col">
+					<button class="btn btn-success"><i class="fa-solid fa-file-excel"></i></button>
+					<button class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
 				</div>
 			</div>
 		</div>
 	</form>
+	<script type="text/javascript">
+		const myModal = document.getElementById()
+		const myInput = document.getElementById()
+		
+		myModal.addEventListener('show.bs.modal', () => {
+			myInput.focus()	
+		})
+	</script>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/2b8f3e92c4.js" crossorigin="anonymous"></script>
 	</body>
