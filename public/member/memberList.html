@@ -182,7 +182,7 @@
 			<tr>
 				<td><input type="checkbox"></td>
 				<td>1</td>
-				<td>김민수</td>
+				<td><a href="memberModForm.html">김민수</a></td>
 				<td>남자</td>
 				<td>31</td>
 				<td>92. 06. 22</td>
@@ -386,11 +386,29 @@
 			<div style="padding: 0px 12px 20px 12px;">
 				<div class="d-grid gap-2 d-md-block" style="float: left;">
 					<button class="btn btn-danger" type="button"><i class="fa-solid fa-minus"></i></button>
-					<button class="btn btn-danger" type="button"><i class="fa-solid fa-trash-can"></i></button>
+					<button class="btn btn-danger"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button" ><i class="fa-solid fa-trash-can"></i></button>
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">배우家</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								정말 삭제하시겠습니까?
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-bs-dismiss="modal">취소</button>
+								<button type="button" class="btn btn-primary">저장</button>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="d-grid gap-2 d-md-flex justify-content-md-end">
 					<button class="btn btn-success me-md-2" type="button"><i class="fa-solid fa-file-excel"></i></button>
-					<button class="btn btn-primary" type="button"><i class="fa-solid fa-plus"></i></button>
+					<a href="memberRegForm.html"><button class="btn btn-primary" type="button"><i class="fa-solid fa-plus"></i></button></a>
 				</div>
 			</div>
 		</div>
