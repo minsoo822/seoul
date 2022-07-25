@@ -162,7 +162,7 @@
 	<div class="container-fluid">
 		<table class="table table-striped table-hover" style="text-align: center;">
 			<tr style="background-color: #EDE5FF;">
-				<th width="30px"><input type="checkbox"> 선택</th>
+				<th width="30px"><input type="checkbox" onclick="selectAll(this)"> 선택</th>
 				<th width="40px">회원번호</th>
 				<th width="40px">이름</th>
 				<th width="40px">성별</th>
@@ -414,6 +414,16 @@
 		</div>
 	</div>
 	</form>
+	<script type="text/javascript">
+		function selectAll(selectAll)  {
+		  const checkboxes 
+		     = document.querySelectorAll('input[type="checkbox"]');
+		  
+		  checkboxes.forEach((checkbox) => {
+		    checkbox.checked = selectAll.checked
+		  })
+		}
+	</script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 		<script src="https://kit.fontawesome.com/2b8f3e92c4.js" crossorigin="anonymous"></script>
 	</body>
