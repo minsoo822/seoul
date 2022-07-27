@@ -21,7 +21,7 @@
 		
 		div {
 			font-family: 'MICEGothic Bold';
- 			border: solid 1px orange; 
+ 			/* border: solid 1px orange;  */
 		}
 		.pdBt {
 			text-align: center;
@@ -175,13 +175,102 @@
 					</div>
 				</div>
 			</div>
-			
 			<hr>
 			
 			<div class="row">
+				<div clas="col">
+					<div class="row">
+						<div class="col">
+							<h5>학력사항</h5>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-4">기간</div>
+						<div class="col-3">출신학교</div>
+						<div class="col-1">구분</div>
+						<div class="col-2">학과</div>
+						<div class="col-1">소재지</div>
+						<div class="col-1"></div>						
+					</div>
+					<div class="row text-center">
+						<div class="col-4">
+							<div class="input-group">
+								<input type="date" class="form-control">
+								<span class="input-group-text">~</span>
+								<input type="date" class="form-control">
+							</div>
+						</div>
+						<div class="col-3">
+							<input type="text" class="form-control">
+						</div>
+						<div class="col-1">
+							<select class=form-select>
+								<option>선택</option>
+								<option>졸업</option>
+								<option>재학</option>
+								<option>중퇴</option>
+								<option>퇴학</option>
+							</select>
+						</div>
+						<div class="col-2">
+							<input type="text" class="form-control">
+						</div>
+						<div class="col-1">
+							<input type="text" class="form-control">
+						</div>
+						<div class="col-1">
+							<button type="button" class="btn btn-primary">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>						
+					</div>
+				</div>
+			</div>
+			
+			<hr>
+			<div class="row">
+				<div class=col>
+					<div class="row">
+						<div class="col">
+							<h5>교육연수</h5>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-4">연수기간</div>
+						<div class="col-3">연수기관</div>
+						<div class="col-4">연수과정 및 내용</div>
+						<div class="col-1"></div>
+					</div>
+					<div class="row text-center">
+						<div class="col-4">
+							<div class="input-group">
+								<input type="date" class="form-control">
+								<span class="input-group-text">~</span>
+								<input type="date" class="form-control">
+							</div>
+						</div>
+						<div class="col-3">
+							<input type="text" class="form-control">
+						</div>
+						<div class="col-4">
+							<input type="text" class="form-control">
+						</div>
+						<div class="col-1">
+							<button type="button" class="btn btn-primary">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>			
+			
+			<hr>
+			<div class="row">
 				<div class="col">
 					<div class="row">
-						<div class="col">자격사항</div>
+						<div class="col">
+							<h5>자격사항</h5>
+						</div>
 					</div>
 					<div class="row text-center">
 						<div class="col-2">취득일</div>
@@ -204,17 +293,20 @@
 							<input type="text" class="form-control">
 						</div>
 						<div class="col-1">
-							<button type="button" class="btn btn-primary" onclick="certi"><i class="fa-solid fa-plus"></i></button>
+							<button type="button" class="btn btn-primary" onclick="certi">
+								<i class="fa-solid fa-plus"></i>
+							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			
 			<hr>
 			<div class="row" >
 				<div class="col" id="careerPoint">
 					<div class="row">
-						<div class="col">경력사항</div>
+						<div class="col">
+							<h5>경력사항</h5>
+						</div>
 					</div>
 					<div class="row text-center">
 						<div class="col-4">활동기간</div>
@@ -241,7 +333,9 @@
 							<input type="text" class="form-control">
 						</div>
 						<div class="col-1">
-							<button type="button" class="btn btn-primary" onclick="addCareer()"><i class="fa-solid fa-plus"></i></button>
+							<button type="button" class="btn btn-primary" onclick="addCareer()">
+								<i class="fa-solid fa-plus"></i>
+							</button>
 						</div>
 					</div>
 				</div>
