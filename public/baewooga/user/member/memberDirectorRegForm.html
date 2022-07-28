@@ -25,7 +25,7 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<h5>추가 정보 입력</h5>
+						<h3><i class="fa-solid fa-keyboard"></i>추가 정보 입력</h3>
 					</div>
 				</div>
 				<hr>
@@ -118,13 +118,12 @@
 									<div class="col-2">
 										<select class="form-select">
 											<option>선택</option>
-											<option></option>
-											<option></option>
-											<option></option>
-											<option></option>
-											<option></option>
-											<option></option>
-											<option></option>
+											<option>상업영화</option>
+											<option>단편(독립)영화</option>
+											<option>드라마</option>
+											<option>웹드라마</option>
+											<option>광고(CF)</option>
+											<option>바이럴광고</option>
 										</select>
 									</div>
 									<div class="col">
@@ -185,7 +184,7 @@
 			tmp += '<input type="text" class="form-control">';
 			tmp += '</div>';
 			tmp += '<div class="col-1">';
-			tmp += '<button type="button" class="btn btn-danger" onclick="remover(mainusCareer' + count_career + ')">';
+			tmp += '<button type="button" class="btn btn-danger" onclick="remov(mainusCareer' + count_career + ')">';
 			tmp += '<i class="fa-solid fa-minus"></i>';
 			tmp += '</button>';
 			tmp += '</div>';
@@ -197,7 +196,7 @@
 			
 		}
 		
-			function remover(id) {
+			function remove(id) {
 				
 				$(id).remove();
 			}
