@@ -131,16 +131,24 @@ h5 {
 	width: 100%;
 	padding: 50px 0px;
 }
+/* 
 .card-img-top{
 	cursor: pointer;
+	
 }
-
+.card-img-top:hover {
+	transform: scale(1.2);
+} 
+*/
 .tour {
 	background: #101010;
 	width: 100%;
 	padding: 50px 0px;
-
-
+}
+.tour .row {
+	
+	
+}
 
 
 
