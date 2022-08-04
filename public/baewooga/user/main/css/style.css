@@ -45,24 +45,40 @@ span {
 nav ul li {
 	list-style: none;
 	list-style-type: none;
-	/* font-size: 20px; */
+	font-size: 20px;
 	display: inline-block;
 	padding: 10px 20px;
 	font-size: 20px;
+	position: relative;
 }
 nav ul li a {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
+	
 }
 nav ul li a:hover {
 	color: #f9004d;
 	transition: .4s;
 }
-.drop ul ul {
-	display: none;
-}
+nav ul > li > ul {
+		width:200px;
+		display: none;
+		position: absolute; 
+		font-size:10px;
+		text-align: left;
+		padding-left: 10px;
+		background-color: #101010;
+		border-radius: 15px;
+		justify-content: center;
+		
+	}
+nav ul > li:hover > ul {
+		display:block;
+		color: #f9004d;
+	}	
+
 .btn {
 	background-color: #f9004d;
 	color: white;
