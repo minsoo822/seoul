@@ -6,126 +6,160 @@
 	<title>Bootstrap demo</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<style type="text/css">
-		@font-face {
-		    font-family: 'MICEGothic Bold';
-		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
-		    font-weight: 700;
-		    font-style: normal;
-		}
-		
-		#navbarType {
-			padding:  20px 400px 20px 400px;
-			background-color: #EDE5FF;
-			font-family: 'MICEGothic Bold';
-		}
-		
-		div {
-			font-family: 'MICEGothic Bold';
-/* 			border: solid 1px black;	  */
-		}
-		.pdBt {
-			text-align: center;
-			border-bottom: solid 1px; 
-			padding-bottom: 20px;
-		}
+	.mainnavbar {
+		background-color: skyblue;
+	}
+	
 	</style>
 </head>
-	
-<body>
-	<form action="">
-		<nav class="navbar" id="navbarType">
-			<a class="navbar-brand" id="navbarFont"><h1>배우家</h1></a>
-			<div class="d-flex" role="search">
-				<input class="form-control me-2" type="search" placeholder="검색" aria-label="Search">
-				<button class="btn btn-outline-primary" type="submit" style="margin-right: 25px;">Search</button> 
-				<span><button type="button" class="btn btn-outline-primary">login</button></span>
-			</div>					
-		</nav>
-		<div class="container">
-			<div class="row m-5">
-				<ul class="nav justify-content-center nav-pills">
-						<li class="col nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">프로필 투어</a>    					
-						<ul class="dropdown-menu">
-		      				<li><a class="dropdown-item" href="#">Action</a></li>
-		      				<li><a class="dropdown-item" href="#">Another action</a></li>
-		      				<li><a class="dropdown-item" href="#">Something else here</a></li>
-		      				<li><hr class="dropdown-divider"></li>
-		      				<li><a class="dropdown-item" href="#">Separated link</a></li>
-    					</ul>
-						</li>
-					<li class="col nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">오디션 공고</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Separated link</a></li>
-						</ul>
-					</li>
-					<li class="col nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">배우프로필</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Separated link</a></li>
-						</ul>
-					</li>
-					<li class="col nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">커뮤니티</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Separated link</a></li>
-						</ul>
-					</li>
-					<li class="col nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">자료실</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Separated link</a></li>
-						</ul>
-					</li>
-					<li class="col nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">회원관리</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">코드관리</a></li>
-							<li><a class="dropdown-item" href="#">코드그룹관리</a></li>
-							<li><hr class="dropdown-divider"></li>
-						</ul>
-					</li>
-				</ul>
+	<div class="row ms-1 me-1"">
+		<div class="col">
+			<div class="row mt-1 mb-1">
+				<div class="col ms-5">
+					<div class="row">
+						<div class="col-2">
+							<img alt="" src="../image/kaionex_logo.jpg">
+						</div>
+						<div class="col-7">
+							<h4>ABC Management System</h4>
+						</div>
+						<div class="col-1" style="text-align: right;">
+							<img alt="" src="../image/aaa.png">
+						</div>
+						<div class="col"  style="font-size: 5px;">
+							<div class="row">
+								<div class="col">Tony Chang</div>
+							</div>
+							<div class="row">
+								<div class="col">Admunustrator</div>
+							</div>
+						</div>
+						<div class="col-1">
+							<select class="form-select" style="height: 40px;">
+								<option selected>언어</option>
+							</select>
+						</div>
+					</div>
+				</div>
 			</div>
-			<h3 style="margin: 100px 300px 50px 0px;">회원가입</h3>
+			<div class="row">
+				<div class="col">
+					<nav class="navbar navbar-expand-lg mainnavbar ps-2">
+						<a class="navbar-brand" href="#">Navbar</a>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+								<a class="nav-link active" aria-current="page" href="#">회원관리</a>
+								<a class="nav-link" disabled>서비스관리</a>
+								<a class="nav-link" disabled>사이트관리</a>
+								<a class="nav-link" disabled>로그관리</a>
+								<a class="nav-link" disabled>시스템관리</a>
+								<a class="nav-link" disabled>시스템관리</a>
+							</div>
+						</div>	
+					</nav>
+				</div>
+			</div>
+			<div class="row mt-2">
+				<div class="col">
+					<div class="row">
+						<div class="col ms-2">
+							<h4>Code</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col ps-5 pe-5">
+							<div class="row mb-2">
+								<div class="col">아이디</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="col-6">비밀번호</div>
+								<div class="col-6">비밀번호확인</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="col-6">이름</div>
+								<div class="col-6">이름(영문)</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="col-6">이름</div>
+								<div class="col-6">성</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="col-6">이름 (영문)</div>
+								<div class="col-6">성 (영문)</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="col-6">성별</div>
+								<div class="col-6">생일</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-6">
+									<select class="form-select">
+										<option>=선택=</option>
+										<option>남자</option>
+										<option>여자</option>
+									</select>
+								</div>
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="col-6">Email</div>
+								<div class="col-6">이메일 정보 마케팅 사용 동의</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-6">
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-6">
+									<input type="checkbox" class="form-check-input"> 동의 합니다
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</form>
-	<script type="text/javascript">
- 		const exampleModal = document.getElementById('exampleModal')
-			  exampleModal.addEventListener('show.bs.modal', event => {
-			  // Button that triggered the modal
-		const button = event.relatedTarget
-			  // Extract info from data-bs-* attributes
-		const recipient = button.getAttribute('data-bs-whatever')
-		// If necessary, you could initiate an AJAX request here
-		// and then do the updating in a callback.
-		//
-		// Update the modal's content.
-		const modalTitle = exampleModal.querySelector('.modal-title')
-		const modalBodyInput = exampleModal.querySelector('.modal-body input')
-		
-			  modalTitle.textContent = `New message to ${recipient}`
-			  modalBodyInput.value = recipient
-		})
-	</script>
-
+	</div>
+<body>
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/2b8f3e92c4.js" crossorigin="anonymous"></script>
 	</body>
