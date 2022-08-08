@@ -211,6 +211,11 @@ h5 {
 	width: 100%;
 	padding: 50px 0px;
 }
+.tourpost {
+	background: #101010;
+	width: 100%;
+	padding: 50px 0px 120px 0px;
+}
 
 .table {
 	width: 1400px;
@@ -249,10 +254,13 @@ td {
 	margin-right: auto;
 	text-align: center;
 }
-
+.tourPagination {
+	background-color: red;
+	
+}
 .tourPagination ul {
 	position: absolute;
-	top: 143%;
+	top: 128%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	display: flex;
