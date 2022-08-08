@@ -10,149 +10,87 @@
 		integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<style type="text/css">
- 
-		div {
+	/* 	div {
 	 	 	border: solid 1px orange;
-		} 
-	 
+		}  */
+	 * {
+	 	margin: 0;
+	 	padding: 0;
+	 	box-sizing: border-box;
+	 }
+	 .actorbody {
+	 	display: flex;
+	 	justify-content: center;
+	 	align-items: center;
+	 	min-height: 100vh;
+	 	background-color: #262626;
+	 }
+	 .actorcontainer {
+	 	position: relative;
+	 	display: flex;
+        -webkit-box-reflect: below 1px linear-gradient
+        (transparent,transparent,transparent,#0004);
+	 }
+	 .actorcontainer .actorbox {
+        position: relative;
+        width: 320px; 
+        height: 400px;
+        background-color: #444;
+        margin: 0 20px;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #2da2ff 25%,
+        #444 25%, #444 50%, #2da2ff 50%, #2da2ff 75%,
+        #444 75%, #444 100%);
+        background-size: 40px 40px;
+        filter: grayscale(1);
+        animation: animateBg 0.5s linear infinite;
+        animation-play-state: paused;
+        transition: filter 1s;
+        display: flex;
+        justify-content: center;
+     } 
+     .actorcontainer .actorbox:nth-child(2) {
+        background: linear-gradient(135deg, #ff61ae 25%,
+        #444 25%, #444 50%, #ff61ae 50%, #ff61ae 75%,
+        #444 75%, #444 100%);
+        background-size: 40px 40px;
+     }
+     .actorcontainer .actorbox:hover {
+        animation-play-state: running;
+        filter: grayscale(0);
+     }
+     @keyframes animateBg {
+        0%
+        {
+            background-position: 0;
+        }
+        100%
+        {
+            background-position: 40px;
+        }
+     }
+     .actorcontainer .actorbox img {
+     	position: absolute;
+     	bottom: 0;
+     	height: 100%;
+     }
+     .actorcontainer .actorbox:hover img {
+     	height: 480px;
+     }
 	</style>
 </head>
 	
 <body>
-	<!-- start -->
-	<div class="hero">
-		<nav>
-			<h2 class="logo">Actor'<span>s</span></h2>
-			<ul>
-				<li><a href="#">프로필 투어</a></li>
-				<li><a href="#">오디션 공고</a></li>
-				<li><a href="#">프로필 정보</a></li>
-				<li><a href="#">커뮤니티</a></li>
-				<li><a href="#">자료실</a>
-			</ul>
-			<div>
-			<a href="#" class="btn">회원가입</a>
-			<a href="#" class="btn">로그인</a>
-			</div>
-		</nav>
-		
-		
-	</div>
-	
-	
-	
-		<hr>
-		<hr>
-		<hr>
-		<hr>
-		<hr>
-		<hr>
-		<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	<hr>
-	
-	
-	
-	
+    <div class="actorbody">
+        <div class="container actorcontainer">
+            <div class="box actorbox">
+               <img alt="" src="../main/image/actorimage/iu.png"> 
+            </div>
+            <div class="box actorbox">
+               <img alt="" src="../main/image/actorimage/jisoo.png"> 
+            </div>
+        </div>
+    </div>
 	
 	
 	

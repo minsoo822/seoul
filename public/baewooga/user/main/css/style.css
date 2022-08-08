@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .hero {
@@ -221,7 +222,11 @@ h5 {
 	width: 100%;
 	padding: 50px 0px 120px 0px;
 }
-
+.actorpost {
+	background: #101010;
+	width: 100%;
+	padding: 50px 0px 120px 0px;
+}
 .table {
 	width: 1400px;
 	margin-top: 35px;
@@ -259,11 +264,8 @@ td {
 	margin-right: auto;
 	text-align: center;
 }
-.tourPagination {
-	background-color: red;
-	
-}
-.tourPagination ul {
+
+.postPagination ul {
 	position: absolute;
 	top: 128%;
 	left: 50%;
@@ -272,10 +274,10 @@ td {
 	margin: 0;
 	padding: 0;
 }
-.tourPagination ul li {
+.postPagination ul li {
 	list-style: none;
 }
-.tourPagination ul li a {
+.postPagination ul li a {
 	position: relative;
 	display: block;
 	width: 40px;
@@ -290,8 +292,8 @@ td {
 	border-radius: 4px;
 	box-shadow: inset 0 5px 10px rgba(0,0,0,.1) 0 2px 5px rgba(0,0,0,.5);
 }
-.tourPagination ul li a.active, 
-.tourPagination ul li a:hover {
+.postPagination ul li a.active, 
+.postPagination ul li a:hover {
 	color: #fff;
 	text-shadow: 0 0 20px rgb(249,0,77),
 				 0 0 20px rgb(249,0,77),
@@ -301,6 +303,113 @@ td {
 				 0 0 20px rgb(249,0,77),
 				 0 0 20px rgb(249,0,77); 
 }
+.actorbody {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #262626;
+}
+.container {
+	position: relative;
+	display: flex;
+}
+.actorbox {
+	position: relative;
+	width: 320px;
+	height: 400px;
+	background-color: #444;
+	margin: 0 20px;
+}
+
+
+
+
+
+
+ .actorbody {
+	 	display: flex;
+	 	justify-content: center;
+	 	align-items: center;
+	 	min-height: 0vh;
+	 	background-color: #101010;
+	 }
+	 .actorcontainer {
+	 	position: relative;
+	 	display: flex;
+        -webkit-box-reflect: below 1px linear-gradient
+        (transparent,transparent,transparent,#0004);
+	 }
+	 .actorcontainer .actorbox {
+        position: relative;
+        width: 320px; 
+        height: 400px;
+        background-color: #444;
+        margin: 0 20px;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #2da2ff 25%,
+        #444 25%, #444 50%, #2da2ff 50%, #2da2ff 75%,
+        #444 75%, #444 100%);
+        background-size: 40px 40px;
+        filter: grayscale(1);
+        animation: animateBg 0.5s linear infinite;
+        animation-play-state: paused;
+        transition: filter 1s;
+        display: flex;
+        justify-content: center;
+     } 
+     .actorcontainer .actorbox:nth-child(2) {
+        background: linear-gradient(135deg, #ff61ae 25%,
+        #444 25%, #444 50%, #ff61ae 50%, #ff61ae 75%,
+        #444 75%, #444 100%);
+        background-size: 40px 40px;
+     }
+     .actorcontainer .actorbox:hover {
+        animation-play-state: running;
+        filter: grayscale(0);
+     }
+     @keyframes animateBg {
+        0%
+        {
+            background-position: 0;
+        }
+        100%
+        {
+            background-position: 40px;
+        }
+     }
+     .actorcontainer .actorbox img {
+     	position: absolute;
+     	bottom: 0;
+     	height: 100%;
+     }
+     .actorcontainer .actorbox:hover img {
+     	height: 480px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
