@@ -135,7 +135,7 @@
 										<input type="text" class="form-control">
 									</div>
 									<div class="col-1">
-										<button type="button" class="btn btn-primary" onclick="addWork()">
+										<button type="button" class="regFrombutton" onclick="addWork()">
 											<i class="fa-solid fa-plus"></i>
 										</button>
 									</div>
@@ -143,9 +143,9 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col d-grid>
+							<div class="col-6 d-grid mx-auto mt-3">
+								<button type="button" class="regFrombutton">가입하기</button>
 								
-								<button type="button" class="btn btn-primary">가입하기</button>
 							</div>
 						</div>
 					</div>
@@ -199,11 +199,8 @@
 			count_career += 1;
 			
 			$("#workPoint").append(tmp);
-			
 		}
-		
 			function remove(id) {
-				
 				$(id).remove();
 			}
 		

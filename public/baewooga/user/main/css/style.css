@@ -402,9 +402,22 @@ b {
 	color: white;
 }
 
-
-
-
+.regFrombutton {
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 5px 15px;
+	border-radius: 10px;
+	transition: .4s;
+	text-align: center;
+}
+.regFrombutton:hover {
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
 
 
 
