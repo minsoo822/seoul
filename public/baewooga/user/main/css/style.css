@@ -389,9 +389,18 @@ td {
      .actorcontainer .actorbox:hover img {
      	height: 480px;
      }
-
-
-
+.disableLink {
+	color: gray;
+}
+.disableLink:hover {
+	color: gray;
+}
+b {
+	color: white;
+}
+.regText {
+	color: white;
+}
 
 
 
