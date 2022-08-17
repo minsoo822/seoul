@@ -119,6 +119,12 @@ nav ul > li:hover > ul {
 	width: 100%;
 	padding: 50px 0px;
 }
+.actoraaaa {
+	background: #101010;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
 /* 
 .title h2 {
 	color: white;
@@ -235,6 +241,7 @@ h5 {
 	text-align: center;
 	background-color: #393939;
 	border-radius: 15px;
+	border-bottom-color: #101010;
 }
 th {
 	color: white;
@@ -419,15 +426,56 @@ b {
 	cursor: pointer;
 }
 
+a {
+	text-decoration: none
+}
+.oditiontype ul {
+	display: flex;
+	margin: 5px;
+}
+.oditiontype ul li {
+	list-style: none;
+	list-style-type: none;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	position: relative;
+	left: 330px;
+}
+.oditiontype ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
 
-
-
-
-
-
-
-
-
+.oditiontype ul li a:hover {
+	color: #f9004d;
+	transition: .4s;
+}
+.actortype ul {
+	display: flex;
+	margin: 5px;
+}
+.actortype ul li {
+	list-style: none;
+	list-style-type: none;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	position: relative;
+	left: 330px;
+}
+.actortype ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.actortype ul li a:hover {
+	color: #f9004d;
+	transition: .4s;
+}
 
 
 

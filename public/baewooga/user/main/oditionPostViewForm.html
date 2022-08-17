@@ -11,11 +11,11 @@
 		integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
  	<style type="text/css">
-
+ /* 
 	div {
  	 	border: solid 1px orange;
 	}
- 
+   */
 	</style> 
 </head>
 	
@@ -61,8 +61,8 @@
 					</li>
 				</ul>
 			<div>
-			<a href="#" class="btn">회원가입</a>
-			<a href="#" class="btn">로그인</a>
+			<a href="../member/memberRegForm.html" class="btn">회원가입</a>
+			<a href="../member/memberLoginForm.html" class="btn">로그인</a>
 			</div>
 		</nav>
 	</div>
@@ -70,6 +70,15 @@
 	<div class="oditionpost">
 		<div class="titile">
 			<h2 style="color: white; font-size: 50px; width: 1130px; margin: 15px auto;">오디션 공고</h2>
+		</div>
+		<div class="oditiontype">
+			<ul>
+				<li><a href="#">전체</a></li>
+				<li><a href="#">상업영화</a></li>
+				<li><a href="#">단편(독립)영화</a></li>
+				<li><a href="#">(웹)드라마</a></li>
+				<li><a href="#">(바이럴)CF광고</a></li>
+			</ul>
 		</div>
 			<table class="table">
 			<thead>
@@ -159,7 +168,7 @@
 		</table>
 	</div>
 	<div class="postPagination">
-		<ul>
+		<ul style="position: absolute; top: 133%">
 			<li><a href="#"><</a></li>
 			<li><a href="./tourpostViewForm.html" class="active">1</a></li>
 			<li><a href="./tourpostTwopageViewForm.html">2</a></li>
