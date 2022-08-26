@@ -248,7 +248,7 @@ td {
 	line-height: 30px;
 	margin-bottom: 20px;
 }
-.oditiontable tr:hover {
+.oditiontable .choise:hover {
 	background-color: #ADADAD;
 	cursor: pointer;
 	color: black;
@@ -520,10 +520,15 @@ textarea {
 	width: 1400px; 
 	margin-left: auto;
 	margin-right: auto; 
-	color: rgb(255, 128, 255);
-	margin-bottom: 100px;
 }
-  
+.coment {
+	 color: white; 
+	  width: 1300px; 
+	  margin: auto;
+	  font-size: 20px;
+}  
+
+
 
 /******************************************************/
 						/* INDEX */
@@ -559,7 +564,7 @@ a {
 	transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
 
-hr {
+.indexhr {
 	position: relative;
 	display: block;
 	border: 0;
@@ -689,11 +694,11 @@ body.homepage #header:after {
 	-moz-transition: opacity 2.5s ease-in-out;
 	-webkit-transition: opacity 2.5s ease-in-out;
 	-ms-transition: opacity 0.5s ease-in-out;
-	transition: opacity 1s ease-in-out;
+	transition: opacity 2s ease-in-out;
 	-moz-transition-delay: 0.5s;
 	-webkit-transition-delay: 0.5s;
 	-ms-transition-delay: 0.5s;
-	transition-delay: 0.2s;
+	transition-delay: 0.5s;
 }
 body.homepage.is-preload #header::after {
 	opacity: 1;
