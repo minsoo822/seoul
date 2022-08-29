@@ -17,6 +17,9 @@ li {
 h1,h2 {
 	color: #444;
 } 
+h3 {
+	color: #999;
+}
 .btn {
 	background-color: #f05462;
 	color: white;
@@ -124,11 +127,52 @@ h1,h2 {
 	top: 0;
 	left: 0;
 	width: 100%;
+	height: 100%;
 }
-
-
-
-
+.container .content {
+	position: relative;
+	margin-top: 10vh;
+	min-height: 90vh;
+}
+.container .content .cards {
+	padding: 20px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.container .content .cards .card {
+	width: 250px;
+	height: 150px;
+	background: white;
+	margin: 20px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .content .content-2 {
+	min-height:  60vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.container .content .content-2 .recent-payments {
+	min-height: 60vh;
+	flex: 5;
+	background: white;
+	margin: 0 25px 25px 25px;
+}
+.table{
+	width: 100%;
+	border: 1px solid #444444;
+	border-collapse: collapse; 
+}
+ tr th td {
+	border: 1px solid #444444;
+	padding: 10px;
+}
 
 
 
