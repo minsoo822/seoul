@@ -1,184 +1,72 @@
+/* Google font import Link */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&family=Hi+Melody&family=Noto+Serif+KR&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: '';
+	font-family: 'Poppins', sans-serif;
 }
-
-body {
-	min-height: 100vh;
-}
-a {
-	text-decoration: none;
-}
-li {
-	list-style: none;
-}
-h1,h2 {
-	color: #444;
-} 
-h3 {
-	color: #999;
-}
-.btn {
-	background-color: #f05462;
-	color: white;
-	padding: 5px 10px;
-	text-align: center;
-}
-.btn:hover {
-	color: #f05462;
-	background: white;
-	padding: 3px 8px;
-	border: 2px solid #f05462;
-}
-.side-menu {
+.sidebar {
 	position: fixed;
-	background: #f05462;
-	width: 20vw;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
-.side-menu .brand-name {
-	height: 10vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.side-menu .brand-name span {
-	color: #f9004d
-}
-.side-menu li {
-	font-size: 24px;
-	padding: 10px 40px;
-	color: white;
-	display: flex;
-	align-items: center;
-}
-.side-menu li:hover {
-	background-color: white;
-	color: #f05462;
-}
-.container {
-	position: absolute;
-	right: 0;
-	width: 80vw;
-	height: 100vh;
-	background: #f1f1f1;
-}
-.container .header {
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 80vw;
-	height: 10vh;
-	background-color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.container .header .nav {
-	width: 90%;
-	display: flex;
-	align-items: center;
-}
-.container .header .nav .search {
-	flex: 3;
-	display: flex;
-	justify-content: center;
-}
-.container .header .nav .search input[type=text] {
-	border: none;
-	background: #f1f1f1;
-	padding: 10px;
-	width: 50%;
-}
-.container .header .nav .search button {
-	width: 40px;
-	height: 40px;
-	border: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.container .header .nav .search button img {
-	width: 30px;
-	height: 30px;
-}
-.container .header .nav .user {
-	flex: 1;
-	display:  flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.container .header .nav .user img {
-	width: 40px;
-	height: 40px;
-}
-.container .header .nav .user .img-case {
-	position: relative;
-	width: 50px;
-	height: 50px;
-}
-.container .header .nav .user .img-case img {
-	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 260px;
 	height: 100%;
+	background: #11101d;
 }
-.container .content {
+.sidebar .logo-ditails {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.sidebar .logo-ditails i {
+	font-size: 30px;
+	color: #fff;
+	height: 50px;
+	min-width: 78px;
+	text-align: center;
+	line-height: 50px;
+}
+.sidebar .logo-ditails .logo_name {
+	font-size: 22px;
+	color: #fff;
+	font-weight: 600;
+}
+.sidebar .nav-links {
+	background-color: red;
+	height: 100%;
+	padding-top: 30px;
+}
+.sidebar .nav-links li {
 	position: relative;
-	margin-top: 10vh;
-	min-height: 90vh;
-}
-.container .content .cards {
-	padding: 20px 15px;
+	list-style: none;
+} 
+.sidebar .nav-links li .icon-link {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
-.container .content .cards .card {
-	width: 250px;
-	height: 150px;
-	background: white;
-	margin: 20px 10px;
-	display: flex;
+.sidebar .nav-links li i {
+	height: 50px;
+	min-width: 78px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+.sidebar .nav-links li a {
+	display: flex;  
 	align-items: center;
-	justify-content: space-around;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-decoration: none; 
 }
-.container .content .content-2 {
-	min-height:  60vh;
-	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
-	flex-wrap: wrap;
+.sidebar .nav-links li a .link_name {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	
 }
-.container .content .content-2 .recent-payments {
-	min-height: 60vh;
-	flex: 5;
-	background: white;
-	margin: 0 25px 25px 25px;
-}
-.table{
-	width: 100%;
-	border: 1px solid #444444;
-	border-collapse: collapse; 
-}
- tr th td {
-	border: 1px solid #444444;
-	padding: 10px;
-}
-
-
-
-
-
-
 
 
 

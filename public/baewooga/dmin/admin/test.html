@@ -3,166 +3,62 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=rdge">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/adminStyle2.css">
+	<!-- Boxico  ns CDN Link -->
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+	
 	<title>Actor's Admin</title>
-	<style type="text/css">
-	
-	table tr th td {
-		border: 1px solid black;
-}
-	
-	</style>
-	
 	
 </head>
 <body>
-	<div class="side-menu">
-		<div class="brand-name">
-			<h1>Actor'<span>s</span></h1>
+	<div class="sidebar">
+		<div class="logo-ditails">
+			<i class='bx bxs-factory'></i>
+			<span class="logo_name">Actor's</span>
 		</div>
-		<ul>
-			<li><img src="image/dashboard_icon.png">&nbsp; Dashboard</li>
-			<li><img src="image/file_code_icon.png">&nbsp; code</li>
-			<li><img src="image/help_icon.png">&nbsp; Help</li>
-			<li><img src="image/settings_gear_icon.png">&nbsp; Setting</li>
-		</ul> 
+		<ul class="nav-links">
+			<li>
+				<a href="#">
+					<i class='bx bxs-dashboard'></i>
+					<span class="link_name">대시보드</span>
+				</a>
+			</li>
+			<li>
+				<div class="icon-link">
+					<a href="#">
+						<i class='bx bxs-dashboard'></i>
+						<span class="link_name">코드관리</span>
+					</a>
+					<i class='bx bx-chevron-down'></i>
+				</div>
+			</li>
+		</ul>
 	</div>
-	<div class="container">
-		<div class="header">
-			<div class="nav">
-				<div class="search">
-					<input type="text" placeholder="Search..">
-					<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-				</div>
-				<div class="user">
-					<a href="#" class="btn">Add New</a>
-					<img src="image/bell_ring_icon.png">
-					<div class="img-case">
-						<img alt="" src="image/avatar_male_man_person_user_icon.png">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="content">
-			<div class="cards">
-				<div class="card">
-					<div class="box">
-						<h1>2194</h1>
-						<h3>Code</h3>
-					</div>
-					<div class="icon-case">
-						<img alt="" src="image/file_code_icon.png">
-					</div>
-				</div>
-				<div class="card">
-					<div class="box">
-						<h1>2194</h1>
-						<h3>Code</h3>
-					</div>
-					<div class="icon-case">
-						<img alt="" src="image/file_code_icon.png">
-					</div>
-				</div>
-				<div class="card">
-					<div class="box">
-						<h1>2194</h1>
-						<h3>Code</h3>
-					</div>
-					<div class="icon-case">
-						<img alt="" src="image/file_code_icon.png">
-					</div>
-				</div>
-				<div class="card">
-					<div class="box">
-						<h1>2194</h1>
-						<h3>Code</h3>
-					</div>
-					<div class="icon-case">
-						<img alt="" src="image/file_code_icon.png">
-					</div>
-				</div>
-			</div>
-			<div class="content-2">
-				<div class="recent-payments">
-					<table class="table table-striped">
-						<tr>
-							<th><input type="checkbox"></th>
-							<th>#</th>
-							<th>코드그룹 코드</th>
-							<th>코드그룹 이름 (한글)</th>
-							<th>코드그룹 이름 (영문)</th>
-							<th>코드갯수</th>
-							<th>등록일</th>
-							<th>수정일</th>
-						</tr>	
-						<tr>
-							<td><input type="checkbox"></td>
-							<td>6</td>
-							<td>38</td>
-							<td><a href="#">dsadsa</a></td>
-							<td></td>
-							<td>0</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td><input type="checkbox"></td>
-							<td>5</td>
-							<td>37</td>
-							<td><a href="#">dsadsa</a></td>
-							<td></td>
-							<td>0</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td><input type="checkbox"></td>
-							<td>4</td>
-							<td>36</td>
-							<td><a href="#">dsadas</a></td>
-							<td></td>
-							<td>0</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td><input type="checkbox"></td>
-							<td>3</td>
-							<td>35</td>
-							<td><a href="#">dsadas</a></td>
-							<td></td>
-							<td>0</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td><input type="checkbox"></td>
-							<td>2</td>
-							<td>34</td>
-							<td><a href="#">dsada</a></td>
-							<td></td>
-							<td>0</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td><input type="checkbox"></td>
-							<td>1</td>
-							<td>33</td>
-							<td><a href="#">sadsad</a></td>
-							<td></td>
-							<td>0</td>
-							<td></td>
-							<td></td>
-						</tr>	
-					</table>
-				</div>
-				<!-- <div class="new-students"></div> -->
-			</div>
-		</div>
-	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
